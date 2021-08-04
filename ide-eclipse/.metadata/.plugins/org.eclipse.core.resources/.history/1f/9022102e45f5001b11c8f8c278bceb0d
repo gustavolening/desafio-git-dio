@@ -1,0 +1,19 @@
+package com.dio;
+
+import com.dio.model.Gato;
+
+public class PrimeiroPrograma {
+
+	public static void main(String[] args) {
+		Gato gato = new Gato(null, null, null);
+		gato.setCor("azul");
+		gato.setNome("azulão");
+		gato.setIdade(24);
+		int a = 3;
+		int b = 5;
+
+		System.out.println("A soma é: " + (a + b));
+		System.out.println(gato);
+	}
+
+}
